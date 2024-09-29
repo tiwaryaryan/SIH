@@ -20,7 +20,7 @@ const Login = () => {
         setuserAuth(data);
       })
       .catch(({ response }) => {
-        toast.error(response.data.error); // Error coming from server
+        toast.error(response.data.error); 
       });
   };
 
